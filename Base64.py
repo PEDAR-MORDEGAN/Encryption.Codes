@@ -10,7 +10,7 @@ def base64_decode(encoded_text):
     message_bytes = base64.b64decode(base64_bytes)
     return message_bytes.decode('utf-8')
 
-message = "MAHBOD"
+message = "ZEBRA"
 encoded = base64_encode(message)
 decoded = base64_decode(encoded)
 
